@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Shepatia Langat - Personal Website</title>
+    <style>
+        body {
+            background: linear-gradient(to bottom, #F8E71C, #FFD700); /* Gradient background */
+            color: #333; /* Dark text color */
+            font-family: 'Poppins', Arial, sans-serif; /* Modern font choice */
+            margin: 0;
+            padding: 0;
+        }
+        header {
+            background: linear-gradient(to bottom, #3498db, #2980b9); /* Gradient background for the header */
+            padding: 40px 0;
+            text-align: center;
+        }
+        h1 {
+            font-size: 36px;
+            color: #fff; /* White text color for the header */
+            margin: 0;
+        }
+        nav {
+            background: #3498db; /* Light Blue background for navigation */
+            text-align: center;
+            padding: 20px 0;
+        }
+        nav ul {
+            list-style: none;
+            padding: 0;
+        }
+        nav ul li {
+            display: inline;
+            margin: 0 20px;
+        }
+        nav a {
+            text-decoration: none;
+            color: #fff; /* White text color for navigation links */
+            font-weight: bold;
+            transition: color 0.3s; /* Smooth color transition on hover */
+        }
+        nav a:hover {
+            color: #2ecc71; /* Green color on hover */
+        }
+        section {
+            padding: 40px 0;
+            background: #fff; /* White background for sections */
+            box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1); /* Add a subtle box shadow to sections */
+            border-radius: 10px;
+            margin: 20px;
+        }
+        footer {
+            background: #3498db; /* Light Blue background for the footer */
+            padding: 20px 0;
+            text-align: center;
+            color: #fff; /* White text color for the footer */
+        }
+        .profile-pic {
+            max-width: 100%;
+            display: block;
+            margin: 0 auto;
+            border-radius: 50%; /* Make the picture circular if needed */
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.2); /* Add a subtle box shadow to the profile picture */
+        }
+        h2 {
+            font-size: 28px;
+            color: #333; /* Dark text color for section headings */
+        }
+        h3 {
+            font-size: 24px;
+            color: #333; /* Dark text color for subheadings */
+        }
+        p {
+            font-size: 18px;
+            line-height: 1.6;
+        }
+        .button {
+            display: inline-block;
+            padding: 10px 20px;
+            background: #2ecc71; /* Green color for buttons */
+            color: #fff;
+            text-decoration: none;
+            border-radius: 5px;
+            font-weight: bold;
+            transition: background 0.3s; /* Smooth background transition on hover */
+        }
+        .button:hover {
+            background: #27ae60; /* Darker green on hover */
+        }
+    </style>
+</head>
+<body>
+    <header>
+        <img src="shep.jpg" alt="Profile Picture" class="profile-pic">
+        <h1>Shepatia Langat</h1>
+    </header>
+    <nav>
+        <ul>
+            <li><a href="#resume">Resume</a></li>
+            <li><a href="#portfolio">Portfolio</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </nav>
+    <section id="resume">
+        <h2>Resume</h2>
+        <h3>Summary</h3>
+        <p>I am an enthusiastic Chemical Engineer with a great love for life. I have a passion for where chemical engineering and technology intersect.</p>
+
+        <h3>Education</h3>
+        <p><strong>Dedan Kimathi University of Technology</strong><br>
+        Bachelor of Science in Chemical Engineering<br>
+        Graduated: May 2025</p>
+
+        <h3>Work Experience</h3>
+        <p><strong>Quality Control intern</strong><br>
+        Kenya Pipeline Company<br>
+        January 2023 - April 2023<br>
+        - Safety and fire regulations<br>
+        - Petroleum products testing</p>
+
+        <h3>Skills</h3>
+        <ul>
+            <li>Python</li>
+            <li>Image processing</li>
+            <li>MATLAB</li>
+            <li>Microsoft Office</li>
+            <!-- Add more skills as needed -->
+        </ul>
+        <a href="LANGAT_SHEPATIA_CV .pdf" class="button" target="_blank">Download Resume</a>
+    </section>
+    <section id="portfolio">
+        <!-- Portfolio content -->
+    </section>
+    <section id="contact">
+        <!-- Contact information -->
+    </section>
+    <footer>
+        <p>&copy; 2023 Shepatia Langat</p>
+    </footer>
+</body>
+</html>
+
+
+
+
+
+
+
+
